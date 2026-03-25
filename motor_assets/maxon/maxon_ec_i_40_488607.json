@@ -2,8 +2,8 @@
     "motor_id": "maxon_ec_i_40_488607",
     "manufacturer": "Maxon",
     "model": "EC-i 40 (488607)",
-    "step_file": "data/motor_assets/maxon/488607.step",
-    "stl_file": "data/motor_assets/maxon/488607.stl",
+    "step_file": "https://github.com/robomotic/mujoco-motors/motor_assets/maxon/488607.step",
+    "stl_file": "https://github.com/robomotic/mujoco-motors/motor_assets/maxon/488607.stl",
     "gear_ratio": 1.0,
     "reflected_inertia": 4.4e-06,
     "rotation_angle_range": [
