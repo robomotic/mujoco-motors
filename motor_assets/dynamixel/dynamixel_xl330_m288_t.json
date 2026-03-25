@@ -1,0 +1,40 @@
+{
+    "motor_id": "dynamixel_xl330_m288_t",
+    "manufacturer": "Robotis",
+    "model": "XL330-M288-T",
+    "step_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/robotis/xl330_m288.step",
+    "stl_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/robotis/xl330_m288.stl",
+    "gear_ratio": 288.4,
+    "reflected_inertia": 0.00066,
+    "voltage_range": [
+        0.0,
+        5.0
+    ],
+    "resistance": 3.4,
+    "inductance": 0.0002,
+    "motor_constant_kt": 0.354,
+    "motor_constant_ke": 0.416,
+    "stall_torque": 0.52,
+    "continuous_torque": 0.52,
+    "no_load_speed": 10.78,
+    "no_load_current": 0.15,
+    "stall_current": 1.47,
+    "operating_current": 1.47,
+    "protocol": "UART",
+    "protocol_params": {
+        "baudrate": 1000000,
+        "version": 2.0
+    },
+    "peak_torque": 0.52,
+    "rotation_angle_range": [
+        0,
+        0
+    ],
+    "thermal_time_constant": null,
+    "ambient_temperature": 25.0,
+    "encoder_resolution": 0,
+    "encoder_type": "unknown",
+    "feedback_sensors": [],
+    "thermal_resistance": null,
+    "max_winding_temperature": null
+}

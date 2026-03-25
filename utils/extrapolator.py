@@ -133,15 +133,17 @@ def extrapolate(data: dict) -> Tuple[dict, List[str]]:
     # Defaults for mandatory fields that cannot be computed
     # ------------------------------------------------------------------
     DEFAULTS = {
-        "rotation_angle_range":  [0, 0],
-        "thermal_time_constant":  None,
-        "ambient_temperature":    25.0,
-        "encoder_resolution":     0,
-        "encoder_type":           "unknown",
-        "feedback_sensors":       [],
-        "protocol":               "unknown",
-        "protocol_params":        {},
-        "operating_current":      None,
+        "rotation_angle_range":      [0, 0],
+        "thermal_resistance":        None,
+        "thermal_time_constant":     None,
+        "max_winding_temperature":   None,
+        "ambient_temperature":       25.0,
+        "encoder_resolution":        0,
+        "encoder_type":              "unknown",
+        "feedback_sensors":          [],
+        "protocol":                  "unknown",
+        "protocol_params":           {},
+        "operating_current":         None,
     }
     for key, default in DEFAULTS.items():
         if _get(key) is None:
