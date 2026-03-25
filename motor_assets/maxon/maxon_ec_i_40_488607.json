@@ -1,0 +1,41 @@
+{
+    "motor_id": "maxon_ec_i_40_488607",
+    "manufacturer": "Maxon",
+    "model": "EC-i 40 (488607)",
+    "step_file": "data/motor_assets/maxon/488607.step",
+    "stl_file": "data/motor_assets/maxon/488607.stl",
+    "gear_ratio": 1.0,
+    "reflected_inertia": 4.4e-06,
+    "rotation_angle_range": [
+        0,
+        0
+    ],
+    "voltage_range": [
+        0.0,
+        48.0
+    ],
+    "resistance": 0.994,
+    "inductance": 0.000995,
+    "motor_constant_kt": 0.091,
+    "motor_constant_ke": 0.091,
+    "stall_torque": 2.08,
+    "peak_torque": 2.08,
+    "continuous_torque": 0.224,
+    "no_load_speed": 523.6,
+    "no_load_current": 0.150,
+    "stall_current": 48.3,
+    "operating_current": 2.41,
+    "thermal_resistance": 8.52,
+    "thermal_time_constant": 1400.0,
+    "max_winding_temperature": 155.0,
+    "ambient_temperature": 25.0,
+    "encoder_resolution": 42,
+    "encoder_type": "hall_sensors",
+    "feedback_sensors": [
+        "position",
+        "velocity",
+        "hall"
+    ],
+    "protocol": "PWM",
+    "protocol_params": {}
+}
