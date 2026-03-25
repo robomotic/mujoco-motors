@@ -1,0 +1,23 @@
+{
+    "motor_id": "faulhaber_2264w024bp4",
+    "manufacturer": "Faulhaber",
+    "model": "2264W024BP4",
+    "step_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/faulhaber/2264W024BP4.step",
+    "stl_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/faulhaber/2264W024BP4.stl",
+    "gear_ratio": 1.0,
+    "reflected_inertia": 9.2e-07,
+    "voltage_range": [
+        0.0,
+        24.0
+    ],
+    "resistance": 0.22,
+    "inductance": 0.000024,
+    "motor_constant_kt": 0.0118,
+    "motor_constant_ke": 0.0118,
+    "stall_torque": 1.311,
+    "continuous_torque": 0.059,
+    "no_load_speed": 2209.6,
+    "no_load_current": 0.261,
+    "thermal_resistance": 5.0,
+    "max_winding_temperature": 125.0
+}
