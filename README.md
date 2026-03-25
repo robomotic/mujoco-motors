@@ -17,6 +17,8 @@ Each subdirectory corresponds to a motor vendor:
     - `[model_id].step`: CAD geometry file.
     - `[model_id].stl`: Mesh file for simulation/visualization.
 
+For detailed instructions on how to properly model a motor, refer to the **[Example Model Motor Wiki](https://github.com/robomotic/mujoco-motors/wiki/Example-Model-Motor)**.
+
 ## Motor Metadata Schema
 
 The JSON files for each motor follow a structured schema for compatibility with simulation environments.
