@@ -30,43 +30,41 @@ Example (`maxon/maxon_ec_i_40_488607.json`):
 
 ```json
 {
-{
     "motor_id": "maxon_ec_i_40_488607",
     "manufacturer": "Maxon",
     "model": "EC-i 40 (488607)",
-    "step_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/maxon/488607.step",
-    "stl_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/maxon/488607.stl",
-    "gear_ratio": 1.0,
-    "reflected_inertia": 4.4e-06,
-    "voltage_range": [
-        0.0,
-        48.0
-    ],
+    "voltage_range": [0.0, 48.0],
     "resistance": 0.994,
     "inductance": 0.000995,
     "motor_constant_kt": 0.091,
     "motor_constant_ke": 0.091,
+    "peak_torque": 2.08,
+    "no_load_speed": 523.6,
+    "thermal_resistance": 8.52,
+    "thermal_time_constant": 1400.0,
+    "max_winding_temperature": 155.0,
+    "number_of_pole_pairs": 7,
+    "commutation": "Hall",
+    "max_speed": 1000.0,
+    "step_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/maxon/488607.step",
+    "stl_file": "https://github.com/robomotic/mujoco-motors/blob/main/motor_assets/maxon/488607.stl",
+    "gear_ratio": 1.0,
+    "reflected_inertia": 4.4e-06,
+    "rotation_angle_range": [0, 0],
+    "weight": 0.390,
+    "friction_static": 0.0,
+    "friction_dynamic": 0.0,
     "stall_torque": 2.08,
     "continuous_torque": 0.224,
-    "no_load_speed": 523.6,
-    "no_load_current": 0.15,
-    "thermal_resistance": 8.52,
-    "max_winding_temperature": 155.0,
-    "stall_current": 48.2897,
-    "peak_torque": 2.08,
-    "rotation_angle_range": [
-        0,
-        0
-    ],
-    "thermal_time_constant": null,
+    "no_load_current": 0.150,
+    "stall_current": 48.3,
+    "operating_current": 2.41,
     "ambient_temperature": 25.0,
-    "encoder_resolution": 0,
-    "encoder_type": "unknown",
-    "feedback_sensors": [],
-    "protocol": "unknown",
-    "protocol_params": {},
-    "operating_current": null
-}
+    "encoder_resolution": 42,
+    "encoder_type": "hall_sensors",
+    "feedback_sensors": ["position", "velocity", "hall"],
+    "protocol": "PWM",
+    "protocol_params": {}
 }
 ```
 

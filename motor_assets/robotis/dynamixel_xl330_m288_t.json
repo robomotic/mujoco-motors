@@ -36,5 +36,8 @@
     "encoder_type": "unknown",
     "feedback_sensors": [],
     "thermal_resistance": null,
-    "max_winding_temperature": null
+    "max_winding_temperature": null,
+    "weight": 0.0,
+    "friction_static": 0.0,
+    "friction_dynamic": 0.0
 }
