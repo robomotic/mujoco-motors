@@ -94,15 +94,27 @@ Ensures that all JSON files match the required `MotorSpecification` schema, veri
 python3 utils/validate_motors.py --root motor_assets
 ```
 
+### 3. `update_info_md.py`
+Automatically refreshes the `info.md` files in each vendor directory. It scans the JSON assets and generates status reports, highlighting missing fields and derived constants for each motor.
+
+**When to use:** Run this final step to update the documentation within the folder.
+
+```bash
+python3 utils/update_info_md.py
+```
+
 ---
 
 ## Contributing
 
 To add a new vendor or motor asset, please **create an issue** in the repository first.
 
-### Recommended Contribution Workflow:
-1. **Create** the motor folder and initial `.json` file with vendor values.
-2. **Run [extrapolator.py](utils/extrapolator.py)** to fill in derived constants and defaults.
-3. **Manually check** any fields marked as `None` or `WARNING` (some fields like `thermal_time_constant` cannot be calculated and must be provided manually).
-4. **Run [validate_motors.py](utils/validate_motors.py)**; the final asset is only ready once it passes validation with no errors.
-5. Create a Pull Request with the updated JSON and associated 3D models.
+### Recommended Contribution Workflow (The "Standard Path"):
+To ensure consistency and quality, please follow these steps in order:
+
+1.  **Skeleton**: Create the vendor folder and an initial `.json` file with only the fields found on the datasheet.
+2.  **Extrapolate**: Run `python3 utils/extrapolator.py --input <path_to_json>`. This will compute physics constants (Back-EMF, stall current, etc.) and fill in standard defaults.
+3.  **Manual Edit**: Open the updated JSON and manually fill in any values that the script marked as `null` (such as `thermal_time_constant` or specialized sensor data) if they are available.
+4.  **Validate**: Run `python3 utils/validate_motors.py`. Your asset is ready when the summary reports `SUCCESS` for your file.
+5.  **Document**: Run `python3 utils/update_info_md.py` to update the vendor's local `info.md` status page.
+6.  **PR**: Submit your Pull Request with the JSON and any associated 3D models (`.step`/`.stl`).
