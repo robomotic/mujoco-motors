@@ -17,7 +17,21 @@
     "stall_torque": 2.08,
     "continuous_torque": 0.224,
     "no_load_speed": 523.6,
-    "no_load_current": 0.150,
+    "no_load_current": 0.15,
     "thermal_resistance": 8.52,
-    "max_winding_temperature": 155.0
+    "max_winding_temperature": 155.0,
+    "stall_current": 48.2897,
+    "peak_torque": 2.08,
+    "rotation_angle_range": [
+        0,
+        0
+    ],
+    "thermal_time_constant": null,
+    "ambient_temperature": 25.0,
+    "encoder_resolution": 0,
+    "encoder_type": "unknown",
+    "feedback_sensors": [],
+    "protocol": "unknown",
+    "protocol_params": {},
+    "operating_current": null
 }
