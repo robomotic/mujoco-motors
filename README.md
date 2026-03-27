@@ -1,3 +1,5 @@
+![MuJoCo Motors Banner](images/MujocoMotors.png)
+
 # MuJoCo Motors Assets
 
 This repository serves as the official motor database for the **mjlab** project. Our goal is to provide a comprehensive, standardized, and easily accessible collection of motor specifications and simulation data for robotics applications, particularly for those using **MuJoCo**.

@@ -1,0 +1,36 @@
+{
+    "motor_id": "unitree_a1",
+    "manufacturer": "Unitree",
+    "model": "A1 Motor",
+    "voltage_range": [
+        20.0,
+        40.0
+    ],
+    "resistance": null,
+    "inductance": null,
+    "motor_constant_kt": 0.9287,
+    "motor_constant_ke": 0.9287,
+    "peak_torque": 33.5,
+    "no_load_speed": 21.0,
+    "thermal_resistance": null,
+    "thermal_time_constant": null,
+    "max_winding_temperature": null,
+    "gear_ratio": 9.1,
+    "weight": 0.605,
+    "encoder_resolution": 32768,
+    "protocol": "RS-485",
+    "reflected_inertia": 0.0,
+    "rotation_angle_range": [
+        -3.14159,
+        3.14159
+    ],
+    "friction_static": 0.0,
+    "friction_dynamic": 0.0,
+    "stall_torque": 10.0,
+    "continuous_torque": 10.0,
+    "no_load_current": 0.5,
+    "stall_current": 10.0,
+    "operating_current": 3.0,
+    "ambient_temperature": 25.0,
+    "encoder_type": "incremental"
+}

@@ -1,0 +1,37 @@
+{
+    "motor_id": "unitree_ys342026_s288",
+    "manufacturer": "Unitree",
+    "model": "YS-342026-S288",
+    "voltage_range": [
+        6.4,
+        12.6
+    ],
+    "resistance": null,
+    "inductance": null,
+    "motor_constant_kt": null,
+    "motor_constant_ke": null,
+    "stall_torque": 0.07,
+    "peak_torque": 0.2,
+    "no_load_speed": 16.5,
+    "thermal_resistance": null,
+    "thermal_time_constant": null,
+    "max_winding_temperature": null,
+    "gear_ratio": 1.0,
+    "weight": 0.0195,
+    "protocol": "RS-485",
+    "commutation": "Brushless",
+    "reflected_inertia": 0.0,
+    "rotation_angle_range": [
+        -3.14159,
+        3.14159
+    ],
+    "friction_static": 0.0,
+    "friction_dynamic": 0.0,
+    "continuous_torque": 10.0,
+    "no_load_current": 0.5,
+    "stall_current": 10.0,
+    "operating_current": 3.0,
+    "ambient_temperature": 25.0,
+    "encoder_resolution": 2048,
+    "encoder_type": "incremental"
+}
