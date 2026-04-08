@@ -1,0 +1,58 @@
+{
+    "motor_id": "feetech_sts3215_c044",
+    "manufacturer": "Feetech",
+    "model": "STS3215 (C044)",
+    "voltage_range": [
+        6.0,
+        7.4
+    ],
+    "resistance": null,
+    "inductance": null,
+    "motor_constant_kt": null,
+    "motor_constant_ke": null,
+    "peak_torque": 1.0587,
+    "no_load_speed": 7.95,
+    "thermal_resistance": null,
+    "thermal_time_constant": null,
+    "max_winding_temperature": null,
+    "commutation": "Coreless",
+    "gear_ratio": 191.0,
+    "weight": 0.055,
+    "encoder_resolution": 4096,
+    "encoder_type": "magnetic",
+    "feedback_sensors": [
+        "position",
+        "speed",
+        "voltage",
+        "current",
+        "load",
+        "temperature"
+    ],
+    "protocol": "TTL Serial",
+    "protocol_params": {
+        "duplex": "half",
+        "baudrate_range_bps": [
+            38400,
+            1000000
+        ],
+        "id_range": [
+            0,
+            253
+        ],
+        "command_signal": "DigitalPacket",
+        "estimation_note": "Performance values scaled from official ST-3215-C001 using gear ratio 191:1"
+    },
+    "reflected_inertia": 0.0,
+    "rotation_angle_range": [
+        -3.14159,
+        3.14159
+    ],
+    "friction_static": 0.0,
+    "friction_dynamic": 0.0,
+    "stall_torque": 1.0587,
+    "continuous_torque": 0.3529,
+    "no_load_current": 0.15,
+    "stall_current": 2.0,
+    "operating_current": null,
+    "ambient_temperature": 25.0
+}

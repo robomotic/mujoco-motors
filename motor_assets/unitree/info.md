@@ -22,3 +22,8 @@
 - **Missing Required Fields**: resistance, inductance, motor_constant_kt, motor_constant_ke, thermal_resistance, thermal_time_constant, max_winding_temperature
 - **Derived/Calculated Fields**: no_load_speed, peak_torque, stall_current, stall_torque, rotation_angle_range
 
+#### IM6014 (`unitree_im6014.json`)
+- **Status**: Added from vendor specs
+- **Known Fields**: weight (535g), reduction ratio (12.6), input voltage (24V–75V), peak torque (34.4 N·m), no-load speed (54.2 rad/s), 15-bit dual absolute encoders, high-speed RS-485
+- **Missing Required Fields**: resistance, inductance, motor_constant_kt, motor_constant_ke, thermal_resistance, thermal_time_constant, max_winding_temperature
+
